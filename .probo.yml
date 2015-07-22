@@ -1,0 +1,12 @@
+image: lepew/ubuntu-14.04-lamp
+steps:
+  - name: "task 1"
+    provisioner:
+      plugin: 'Shell'
+      command: "sleep 3 && ps auxww; date"
+  - name: "task 2"
+    provisioner:
+      plugin: 'Shell'
+      command: "netstat -ant"
+
+      
