@@ -8,5 +8,3 @@ steps:
     provisioner:
       plugin: 'Shell'
       command: "netstat -ant"
-
-      
