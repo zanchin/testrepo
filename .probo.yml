@@ -3,9 +3,9 @@ steps:
   - name: "quick task"
     plugin: 'Shell'
     command: "echo done > /dev/null"
-  # - name: "task 1"
-  #   plugin: 'Shell'
-  #   command: "sleep 3 && ps auxww; date"
-  # - name: "task 2"
-  #   plugin: 'Shell'
-  #   command: "sleep 10 &&  netstat -ant"
+  - name: "task 1"
+    plugin: 'Shell'
+    command: "sleep 3 && ps auxww; date"
+  - name: "task 2"
+    plugin: 'Shell'
+    command: "sleep 10 &&  netstat -ant"
