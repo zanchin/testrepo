@@ -5,7 +5,7 @@ steps:
     command: "echo done > /dev/null"
   - name: "task 1"
     plugin: 'Shell'
-    command: "sleep 3 && ps auxww; date"
+    command: "sleep 1 && ps auxww; date"
   - name: "task 2"
     plugin: 'Shell'
-    command: "sleep 10 &&  netstat -ant"
+    command: "sleep 2 &&  netstat -ant"
