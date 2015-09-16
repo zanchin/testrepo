@@ -1,4 +1,4 @@
-image: lepew/ubuntu-14.04-lamp
+image: proboci/ubuntu-14.04-lamp
 steps:
   - name: "quick task"
     plugin: 'Shell'
