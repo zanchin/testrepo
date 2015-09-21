@@ -13,3 +13,9 @@ steps:
   - name: "task 2"
     plugin: 'Shell'
     command: "sleep 2 &&  netstat -ant"
+  - name: "show code"
+    plugin: 'Shell'
+    command: "ls -lh /code"
+  - name: "task assets"
+    plugin: 'Shell'
+    command: "ls -lh /assets"
