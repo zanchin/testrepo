@@ -1,4 +1,8 @@
 image: proboci/ubuntu-14.04-lamp
+assets:
+  - README.md
+  - README.md: readme
+
 steps:
   - name: "quick task"
     plugin: 'Shell'
