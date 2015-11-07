@@ -17,5 +17,5 @@ steps:
   #   command: "pwd; ls /"
   - name: "show code"
     command: "ls -lh $SRC_DIR"
-  # - name: "task assets"
-  #   command: "ls -lh $ASSET_DIR"
+  - name: "task assets"
+    command: "ls -lh $ASSET_DIR || true"
